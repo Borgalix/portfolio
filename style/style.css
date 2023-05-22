@@ -4,6 +4,7 @@ body{
     font-family: 'Inter', sans-serif;
     position: relative;
     min-height: 100vh;
+    width: 100%;
 }
 nav{
     
@@ -35,14 +36,17 @@ footer{
 a {
     text-decoration: none;
 }
-a:hover{
+.onglet:hover{
     background-color: #08124c;
 }
-h1{
+h1,h2{
     margin-top: 1em;
     display: block;
 }
-header {
+h2{
+    text-decoration-line: underline;
+}
+header,main,.projet,.photo {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -66,5 +70,36 @@ header {
     margin: 2px;
 }
 main{
-    padding-bottom: 2.5rem;
+    padding-bottom: 4.5rem;
+}
+.projet{
+    flex-direction: column;
+}
+.photo{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    margin: 20px 10em;
+    font-size: 20px;
+}
+.under{
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+hr{
+    font-size: 3px;
+    width: 90%;
+    margin: 20px 40px;
+}
+.petithr{
+    font-size: 1px;
+    width: 50%;
+    margin: 20px 40px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
 }
