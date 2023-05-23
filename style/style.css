@@ -89,6 +89,9 @@ p{
     text-decoration-line: underline;
     font-size: 20px;
 }
+.lien{
+    text-decoration-line: underline;
+}
 hr{
     font-size: 3px;
     width: 90%;
@@ -102,4 +105,12 @@ hr{
 .logo{
     height: 30px;
     width: 30px;
+}
+.intro{
+    font-size: 25px;
+    margin: 60px;
+}
+.verti{
+    width: 3px;
+    height: 150px;
 }
